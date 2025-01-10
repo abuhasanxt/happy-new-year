@@ -1,0 +1,241 @@
+/* header-section */
+header {
+  background-image: url("../new-year-offer-resources/images/./Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #070211;
+  margin: 50px 140px;
+}
+.Happy-container {
+  padding: 177px 334px;
+}
+
+.title {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+.heading {
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+/* main-section */
+main{
+  background-color: #f8f6f6;
+}
+/* card1 */
+.card1 {
+  margin: 70px 399px 90px 398px;
+  margin-left: 40%;
+  width: 803px;
+  height: 806px;
+}
+.card1-headin {
+  font-size: 88px;
+  font-weight: bold;
+  color: #ff0000;
+  text-align: center;
+}
+.card1-pera {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.card1-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  text-align: center;
+}
+/* card2 */
+.card2 {
+  background-color: black;
+  background-image: url("../new-year-offer-resources/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: top left, left bottom;
+  background-size: cover;
+  margin: 50px 140px;
+}
+.card2-contain {
+  padding: 126px 552px 398px 126px;
+}
+.card2-heading {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+}
+.card2-pera {
+  font-size: 18px;
+  color: white;
+}
+.card2-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+/* card3 */
+.card3 {
+  background-color: #f8c1c1;
+  margin: 120px 140px;
+}
+.card3-heading {
+  padding: 100px 385px;
+}
+.card3-pera {
+  font-size: 32px;
+  font-weight: bold;
+  color: #070211;
+  text-align: center;
+}
+span {
+  color: #ff0000;
+}
+/* card4 */
+.card4 {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+  align-items: center;
+  background-color: #f8c1c1;
+  margin: 120px 140px;
+  padding: 10px 100px;
+}
+/* card4-left-side */
+.left-side-title {
+  font-size: 24px;
+  font-weight: 600px;
+  color: #ff0000;
+}
+.left-side-heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+.left-side-pera {
+  font-size: 20px;
+  color: #070211;
+}
+/* card4-right-side */
+.right-side-heading {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
+}
+.right-side-pera {
+  font-size: 20px;
+  color: #070211;
+}
+/* card5 */
+.card5 {
+  margin: 120px 140px;
+  background: #f1dbdb;
+}
+.card5-heading {
+  font-size: 24px;
+  font-weight: 600px;
+  text-align: center;
+}
+.card5-title {
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+.card5-text {
+  padding: 10px 120px;
+}
+.card5-pera {
+  font-size: 20px;
+  font-weight: 500px;
+  color: #070211;
+  text-align: center;
+}
+.card5-img {
+  text-align: center;
+}
+/* card6 */
+.card6 {
+  margin: 120px 140px;
+  background: #f1dbdb;
+  padding: 20px 0;
+}
+.card6-heading {
+  font-size: 24px;
+  text-align: center;
+}
+.card6-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.card6-pera {
+  font-size: 20px;
+  color: #070211;
+  text-align: center;
+}
+.card6-img1 {
+  display: flex;
+  gap: 24px;
+  margin: 20px 0;
+  justify-content: center;
+}
+/* card7 */
+.card7{
+  margin: 40px 140px;
+  background-color: #f8c1c1;
+  padding: 40px 0;
+}
+.card7-images {
+  text-align: center;
+}
+.card7-text {
+  text-align: center;
+}
+.card7-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.card7-pera {
+  font-size: 20px;
+  color: #070211;
+}
+.card7-input {
+  text-align: center;
+}
+.input-text {
+  padding: 35px;
+  width: 30%;
+  border-radius: 40px 0 0 40px;
+  border-right: none;
+}
+
+.input-submit {
+  padding: 35px;
+  width: 20%;
+  border-radius: 0 40px 40px 0;
+  border-left: none;
+  margin-left: -10px;
+  color: #ffffff;
+  background-color: #ff0000;
+  font-size: medium;
+  font-weight: bold;
+}
+/* footer-section */
+footer{
+  margin:70px 140px ;
+  background-color: #070211;
+}
+.footer-heading{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  padding:50px 70px ;
+}
+.footer-icon{
+  display: flex;
+  gap:24px ;
+  justify-content: center;
+}
