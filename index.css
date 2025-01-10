@@ -1,6 +1,6 @@
 /* header-section */
 header {
-  background-image: url("../new-year-offer-resources/images/./Banner\ Image.png");
+  background-image: url("./images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #070211;
@@ -53,7 +53,7 @@ main{
 /* card2 */
 .card2 {
   background-color: black;
-  background-image: url("../new-year-offer-resources/images/Vectorrr.png");
+  background-image: url("./images/Vectorrr.png");
   background-repeat: no-repeat;
   background-position: top left, left bottom;
   background-size: cover;
