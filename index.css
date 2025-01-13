@@ -1,10 +1,13 @@
+body {
+  background-color: white;
+}
 /* header-section */
 header {
   background-image: url("./images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #070211;
-  margin: 50px 140px;
+  margin: 20px 0px;
 }
 .Happy-container {
   padding: 177px 334px;
@@ -21,19 +24,14 @@ header {
   color: #ffffff;
   text-align: center;
 }
-/* main-section */
-main{
-  background-color: #f8f6f6;
-}
-/* card1 */
+/* main-section
+card1 */
 .card1 {
-  margin: 70px 399px 90px 398px;
-  margin-left: 40%;
-  width: 803px;
-  height: 806px;
+  margin: 70px 140px;
+  padding: 10px;
 }
 .card1-headin {
-  font-size: 88px;
+  font-size: 68px;
   font-weight: bold;
   color: #ff0000;
   text-align: center;
@@ -52,18 +50,21 @@ main{
 }
 /* card2 */
 .card2 {
+  position: relative;
   background-color: black;
   background-image: url("./images/Vectorrr.png");
   background-repeat: no-repeat;
-  background-position: top left, left bottom;
+  background-position: top left;
   background-size: cover;
   margin: 50px 140px;
+  padding: 80px 120px 80px 60px;
 }
 .card2-contain {
-  padding: 126px 552px 398px 126px;
+  text-align: center;
+  width: 550px;
 }
 .card2-heading {
-  font-size: 64px;
+  font-size: 44px;
   font-weight: bold;
   color: white;
 }
@@ -75,23 +76,43 @@ main{
   font-size: 20px;
   font-weight: bold;
   color: white;
+  text-align: left;
+  margin-left: 20px;
+}
+.card2-img {
+  width: 220px;
+  position: absolute;
+  right: 120px;
+  bottom: 20px;
 }
 /* card3 */
 .card3 {
-  background-color: #f8c1c1;
-  margin: 120px 140px;
-}
-.card3-heading {
-  padding: 100px 385px;
+  background-color: #f4d8d8;
+  margin: 60px 140px;
+  padding: 70px 80px;
+  text-align: center;
 }
 .card3-pera {
   font-size: 32px;
   font-weight: bold;
   color: #070211;
-  text-align: center;
 }
 span {
   color: #ff0000;
+}
+.card3-btn {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background: #ff0000;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 10px;
+}
+.card3-btn:hover{
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
 }
 /* card4 */
 .card4 {
@@ -99,19 +120,22 @@ span {
   justify-content: space-around;
   gap: 70px;
   align-items: center;
-  background-color: #f8c1c1;
-  margin: 120px 140px;
-  padding: 10px 100px;
+  background-color: #f0ecec;
+  margin: 20px 140px;
+  margin-top: -60px;
+  padding: 10px 80px 20px 40px;
 }
 /* card4-left-side */
 .left-side-title {
   font-size: 24px;
   font-weight: 600px;
   color: #ff0000;
+  text-wrap: nowrap;
 }
 .left-side-heading {
   font-size: 48px;
   font-weight: 700;
+  text-wrap: nowrap;
 }
 .left-side-pera {
   font-size: 20px;
@@ -129,50 +153,60 @@ span {
 }
 /* card5 */
 .card5 {
-  margin: 120px 140px;
-  background: #f1dbdb;
+  position: relative;
+  margin: 0px 140px;
+  margin-top: -20px;
+  background: #f0ecec;
+  padding: 10px 0px;
+}
+.card5-text {
+  text-align: center;
 }
 .card5-heading {
   font-size: 24px;
   font-weight: 600px;
-  text-align: center;
 }
 .card5-title {
-  font-size: 72px;
+  font-size: 62px;
   font-weight: bold;
-  text-align: center;
-}
-.card5-text {
-  padding: 10px 120px;
 }
 .card5-pera {
   font-size: 20px;
   font-weight: 500px;
   color: #070211;
-  text-align: center;
+  margin: 0 50px;
+  margin-bottom: 250px;
 }
-.card5-img {
-  text-align: center;
+.card5-img1 {
+  position: absolute;
+  bottom: 40px;
+  left: 10%;
+}
+.card5-img2 {
+  position: absolute;
+  bottom: 180px;
+  right: 5%;
+}
+.card5-img2:hover{
+  cursor: pointer;
 }
 /* card6 */
 .card6 {
-  margin: 120px 140px;
-  background: #f1dbdb;
+  margin: 0px 140px;
+  background: #f0ecec;
   padding: 20px 0;
 }
 .card6-heading {
   font-size: 24px;
-  text-align: center;
 }
 .card6-title {
   font-size: 48px;
   font-weight: 700;
-  text-align: center;
 }
 .card6-pera {
   font-size: 20px;
   color: #070211;
-  text-align: center;
+  width: 600px;
 }
 .card6-img1 {
   display: flex;
@@ -180,9 +214,12 @@ span {
   margin: 20px 0;
   justify-content: center;
 }
+.card6-img1 img {
+  width: 300px;
+}
 /* card7 */
-.card7{
-  margin: 40px 140px;
+.card7 {
+  margin: 0px 140px;
   background-color: #f8c1c1;
   padding: 40px 0;
 }
@@ -208,6 +245,8 @@ span {
   width: 30%;
   border-radius: 40px 0 0 40px;
   border-right: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .input-submit {
@@ -218,24 +257,33 @@ span {
   margin-left: -10px;
   color: #ffffff;
   background-color: #ff0000;
-  font-size: medium;
+  font-size: 16px;
   font-weight: bold;
 }
+.input-submit:hover{
+  background-color: chartreuse;
+  cursor: pointer;
+  color: black;
+}
 /* footer-section */
-footer{
-  margin:70px 140px ;
+footer {
+  margin: 70px 0px;
   background-color: #070211;
 }
-.footer-heading{
+.footer-heading {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
   line-height: 40px;
   color: #ffffff;
-  padding:50px 70px ;
+  padding: 50px 70px;
 }
-.footer-icon{
+.footer-icon {
   display: flex;
-  gap:24px ;
+  gap: 24px;
   justify-content: center;
+  padding: 40px 0px;
+}
+.footer-icon img:hover{
+  cursor: pointer;
 }
